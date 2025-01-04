@@ -1,0 +1,19 @@
+.imageGallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+}
+
+.imageItem {
+    list-style-type: none;
+}
+
+.imageItem img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
