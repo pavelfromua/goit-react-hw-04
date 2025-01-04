@@ -53,10 +53,7 @@ function App() {
 
                 setError(false);
                 setLoadMore(false);
-
-                //if (images.length > 0) {
                 setLoading(true);
-                //}
 
                 const portion = await fetchImages(query, page);
 
